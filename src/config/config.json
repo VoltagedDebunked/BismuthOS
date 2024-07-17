@@ -1,0 +1,21 @@
+{
+    "OperatingSystem": {
+      "Name": "BismuthOS",
+      "Version": "1.0",
+      "Author": "BismuthOS"
+    },
+    "Directories": {
+      "Source": "src",
+      "Include": "include",
+      "Build": "build",
+      "Packages": "$(Source)/packages"
+    },
+    "Compiler": {
+      "CrossCompiler": "i386-elf-",
+      "CFlags": "-ffreestanding -m32"
+    },
+    "Linker": {
+      "LDFlags": "-T linker.ld"
+    }
+  }
+  

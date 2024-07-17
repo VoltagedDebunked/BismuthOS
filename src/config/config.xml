@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+  <OperatingSystem>
+    <Name>BismuthOS</Name>
+    <Version>1.0</Version>
+    <Author>BismuthOS</Author>
+  </OperatingSystem>
+  <Directories>
+    <Source>src</Source>
+    <Include>include</Include>
+    <Build>build</Build>
+    <Packages>$(Source)/packages</Packages>
+  </Directories>
+  <Compiler>
+    <CrossCompiler>i386-elf-</CrossCompiler>
+    <CFlags>-ffreestanding -m32</CFlags>
+  </Compiler>
+  <Linker>
+    <LDFlags>-T linker.ld</LDFlags>
+  </Linker>
+</Config>

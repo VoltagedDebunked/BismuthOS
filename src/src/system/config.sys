@@ -1,0 +1,5 @@
+key=value
+setting1=enabled
+setting2=disabled
+path=/bin:/usr/bin:/sbin
+
